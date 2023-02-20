@@ -1,0 +1,9 @@
+# vsocde config
+/.vscode
+
+# solidity files
+*.sol
+*.yul
+
+# chore
+.DS_Store
