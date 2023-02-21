@@ -5,5 +5,10 @@
 *.sol
 *.yul
 
+# npm
+package.json
+package-lock.json
+/node_modules
+
 # chore
 .DS_Store

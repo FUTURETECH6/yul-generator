@@ -1,4 +1,4 @@
-.PHONY: ir
+.PHONY: ir clean
 
 ir: $(patsubst %.sol, %.yul, $(wildcard *.sol))
 
