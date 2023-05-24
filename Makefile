@@ -6,5 +6,8 @@ ir: $(patsubst %.sol, %.yul, $(wildcard *.sol))
 	solc --ir $^ > $@
 	solc --hashes $^
 
+hashes:
+	solc --hashes *.sol
+
 clean:
 	rm -f *.yul
